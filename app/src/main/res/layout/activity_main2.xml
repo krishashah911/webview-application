@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.krisha.webview.Main2Activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="145dp"
+            android:layout_marginLeft="145dp"
+            android:layout_marginBottom="474dp"
+            android:background="@color/colorPrimary"
+            android:onClick="button2"
+            android:text="Click Here" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="234dp"
+            android:layout_height="56dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="57dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="http://" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="14dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="65dp"
+            android:text="Type URL"
+            tools:autoSizeTextType="uniform"
+            tools:textSize="18sp" />
+
+        <WebView
+            android:id="@+id/WebView"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="38dp"
+            android:layout_marginLeft="38dp"
+            android:layout_marginBottom="0dp"
+            tools:layout_width="300dp" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
